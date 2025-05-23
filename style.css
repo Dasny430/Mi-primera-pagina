@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    background-color: #F6F0F0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+img{
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+p{
+    font-size: 20em;
+    color: #333;
+    text-align: center;     
+    margin-bottom: 20px;
+
+}
+h1{
+    font-size: 2em;
+    color: #504B38;
+    text-align: center;     
+    margin-bottom: 20px;
+
+}
+
+h2{
+    font-size: 1.5em;
+    color: #504B38;
+    text-align: center;     
+    margin-bottom: 20px;
+}
+p{
+    font-size: 2em;
+    color: #333;
+    text-align: center;     
+    margin-bottom: 20px;
+}
+table{
+    width: 100%;
+    border-style : solid;
+    border-width: 1px;
+    border-color: #ffeab6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #D5C7A3(0, 0, 0, 0.2);
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fff3ce;
+    
+}
+
+ul li{
+   list-style-type: circle;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+ol{
+    list-style-type: decimal;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+div {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px 20px 30px; 
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-color: #D5C7A3;
+}
+
+div ol, div ul {
+    padding-left: 20px;
+    margin-left: 0;     
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #F2E2B1;
+    border-color: #D5C7A3;
+    border-style: solid;    
+    border-width: 1px;
+    box-sizing: border-box;
+}
